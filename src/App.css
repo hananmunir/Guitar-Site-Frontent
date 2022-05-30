@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    font-size: 3rem;
+}
+
+.services{
+    background-image: url("Images/c-d-x-PDX_a_82obo-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 100px;
+    color: #fff;
+}
+.products{
+   background: url('Images/mike-giles-IiwYeihxC58-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 100px;
+    color: #fff;
+}
+.signup{
+    background: url('Images/john-matychuk-gUK3lA3K7Yo-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 100px;
+    color: #fff;
+}
